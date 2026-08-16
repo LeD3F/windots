@@ -424,7 +424,7 @@ widgets:
     type: "yasb.quick_launch.QuickLaunchWidget"
     options:
       label: "<span>\uF002</span>"
-      search_placeholder: "\u041F\u043E\u0438\u0441\u043A \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439..."
+      search_placeholder: "Search applications..."
       max_results: 30
       show_icons: true
       icon_size: 32
