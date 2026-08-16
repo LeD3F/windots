@@ -16,3 +16,6 @@ WindHawk Plugins:
 - Windows 11 Notification Center Styler
 - Windows 11 Settings Styler
 - Windows 11 Start Menu Styler
+
+
+Based on - https://github.com/MrDLingters/NordWin11
