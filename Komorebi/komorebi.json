@@ -6,9 +6,16 @@
 
   "default_workspace_padding": 10,
   "default_container_padding": 4,
-  "border": false,
+  "border": true,
+  "border_style":"Square",
   "border_width": 3,
-  "border_offset": 0,
+  "border_offset": -1,
+  "border_colours": {
+    "single": "#3f3f42",
+    "stack": "#00a542",
+    "monocle": "#ff3399",
+    "unfocused": "#18181b"
+  },
   "mouse_follows_focus": false,
   "animation": {
     "enabled": true,
