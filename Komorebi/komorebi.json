@@ -96,6 +96,16 @@
       "kind": "Exe",
       "id": "Happ.exe",
       "matching_strategy": "Equals"
-    }                  
+    },    
+    {
+      "kind": "Exe",
+      "id": "ACBlackFlag.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "forzahorizon6.exe",
+      "matching_strategy": "Equals"
+    }             
   ]
 }
