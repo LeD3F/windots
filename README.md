@@ -3,6 +3,7 @@
 <img src='WinDots.png'>
 
 Tools without config: 
+- Thide
 - AltSnap
 
 WindHawk Plugins: 
