@@ -1,6 +1,6 @@
 ## Windows Dots
 
-<img src='Screen.png'>
+<img src='WinDots.png'>
 
 Not configed tools Used: 
 - Thide
