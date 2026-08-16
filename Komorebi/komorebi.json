@@ -14,6 +14,7 @@
     "single": "#3f3f42",
     "stack": "#00a542",
     "monocle": "#ff3399",
+    "floating": "#3f3f42",
     "unfocused": "#18181b"
   },
   "mouse_follows_focus": false,
