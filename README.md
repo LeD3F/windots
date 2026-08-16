@@ -9,7 +9,8 @@ Not configed tools Used:
 WindHawk Plugins: 
 - Better file sizes in Explorer details
 - Disable rounded corners in Windows 11
-- Modernize Folder Picker Dialog, Resource Redirect
+- Modernize Folder Picker Dialog
+- Resource Redirect
 - Taskbar height and icon size
 - Windows 11 File Explorer Styler
 - Windows 11 Notification Center Styler
