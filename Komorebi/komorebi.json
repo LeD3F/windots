@@ -91,6 +91,11 @@
       "kind": "Exe",
       "id": "karing.exe",
       "matching_strategy": "Equals"
-    }            
+    },
+    {
+      "kind": "Exe",
+      "id": "Happ.exe",
+      "matching_strategy": "Equals"
+    }                  
   ]
 }
