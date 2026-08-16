@@ -1,6 +1,6 @@
 ## Windows Dots
 
-<img src='win.png'>
+<img src='Monochrome.png'>
 
 Not configed tools Used: Thide, AltSnap
 
