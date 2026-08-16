@@ -86,6 +86,11 @@
       "kind": "Exe",
       "id": "mpv.exe",
       "matching_strategy": "Equals"
-    }    
+    },
+    {
+      "kind": "Exe",
+      "id": "karing.exe",
+      "matching_strategy": "Equals"
+    }            
   ]
 }
