@@ -1,6 +1,6 @@
 ## Windows Dots
 
-<a href="url"><img src='/Screens/1.png' style="border-radius:50%"></a>
+<a href="url"><img src='/Screens/1.png' height="auto" width="200" style="border-radius:50%"></a>
 <img src='/Screens/2.png'>
 <img src='/Screens/3.png'>
 
