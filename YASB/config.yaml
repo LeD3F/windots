@@ -108,11 +108,10 @@ widgets:
       label_alt: "{level}"
       tooltip: true
       icons:
-        "muted": "\uF026" # Icon for muted
-        "10": "\uF026"  # Icon for 0-10% volume
+        "muted": "\uEEE8" # Icon for muted
         "30": "\uF026"  # Icon for 11-30% volume
-        "60": "\uF026"  # Icon for 31-60% volume
-        "100": "\uF026" # Icon for 61-100% volume
+        "60": "\uF027"  # Icon for 31-60% volume
+        "100": "\uF028" # Icon for 61-100% volume
       callbacks:
         on_left: toggle_volume_menu
         on_right: toggle_mute
