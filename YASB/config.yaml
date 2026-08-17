@@ -442,7 +442,6 @@ widgets:
         - keys: "alt+d"
           action: "toggle_quick_launch"
           screen: "primary"
-
   taskbar:
     type: "yasb.taskbar.TaskbarWidget"
     options:
