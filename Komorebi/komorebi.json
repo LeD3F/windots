@@ -40,7 +40,7 @@
         },
         {
           "name": "III",
-          "layout": "BSP"
+          "layout": "VerticalStack"
         },
         {
           "name": "IV",
@@ -106,6 +106,21 @@
       "kind": "Exe",
       "id": "forzahorizon6.exe",
       "matching_strategy": "Equals"
-    }             
+    },
+    {
+      "kind": "Exe",
+      "id": "Spotify.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Dead Space.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "IdleMasterExtended.exe",
+      "matching_strategy": "Equals"
+    }
   ]
 }
