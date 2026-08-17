@@ -40,11 +40,18 @@
         },
         {
           "name": "III",
-          "layout": "VerticalStack"
-        },
+          "layout": "Scrolling",
+          "layout_options":
+          {
+            "scrolling":
+            {
+              "columns": 2
+            }
+          }
+        },        
         {
           "name": "IV",
-          "layout": "BSP"
+          "layout": "VerticalStack"
         },
         {
           "name": "V",
@@ -120,6 +127,11 @@
     {
       "kind": "Exe",
       "id": "IdleMasterExtended.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "NanaZip.Modern.FileManager.exe",
       "matching_strategy": "Equals"
     }
   ]
