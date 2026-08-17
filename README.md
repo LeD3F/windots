@@ -1,6 +1,6 @@
 ## Windows Dots
 
-<img src='/Screens/1.png'>
+<img src='/Screens/1.png' style="border-radius: 15px;">
 <img src='/Screens/2.png'>
 <img src='/Screens/3.png'>
 
