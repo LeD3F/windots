@@ -1,6 +1,8 @@
 ## Windows Dots
 
-<img src='WinDots.png'>
+<img src='/Screens/1.png'>
+<img src='/Screens/2.png'>
+<img src='/Screens/3.png'>
 
 Tools without config: 
 - Thide
