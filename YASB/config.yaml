@@ -301,8 +301,8 @@ widgets:
         round_corners: true
         round_corners_type: "normal"
         border_color: None
-        alignment: "center"
-        direction: "up"
+        alignment: right
+        direction: up
         offset_top: 6
         offset_left: 0
   wallpapers:
