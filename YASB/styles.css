@@ -1361,8 +1361,8 @@ Example: "Windows Media" becomes "windows-media" */
     color: var(--background);
 }
 .bluetooth-menu .progress-bar {
-    min-height: 2px;
-    max-height: 2px;
+    min-height: 1px;
+    max-height: 1px;
     color: var(--background2);
 }
 .bluetooth-menu .bluetooth-list {
