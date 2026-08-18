@@ -175,24 +175,6 @@ widgets:
         cancel:
           - ''
           - Cancel
-  active_window:
-    type: yasb.active_window.ActiveWindowWidget
-    options:
-      label: '{win[title]}'
-      label_alt: '{win[title]}'
-      label_icon: true
-      label_icon_size: 16
-      max_length: 32
-      max_length_ellipsis: '...'
-      monitor_exclusive: false
-  win_button:
-    type: "yasb.custom.CustomWidget"
-    options:
-      label: "\u5BB6"
-      label_alt: "\u5BB6"
-      class_name: "system-widget"
-      callbacks:
-        on_left: "exec start_menu"
   lines:
     type: "yasb.custom.CustomWidget"
     options:
