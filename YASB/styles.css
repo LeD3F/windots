@@ -703,6 +703,7 @@
 .audio-menu .toggle-apps:hover {
     background-color: var(--hover);   
 }
+
 /* Container for application volumes (if is enabled) */
 
 .audio-menu .apps-container {
@@ -1127,6 +1128,7 @@ Example: "Windows Media" becomes "windows-media" */
     border: 1px solid var(--border);
     border-radius: var(--border-radius);
 }
+
 /* Search bar container */
 
 .quick-launch-popup .search {
@@ -1134,6 +1136,7 @@ Example: "Windows Media" becomes "windows-media" */
 	background-color: transparent;
 	border-bottom: 1px solid var(--background2);
 }
+
 /* Search loader line color */
 
 .quick-launch-popup .search .loader-line {
@@ -1161,6 +1164,7 @@ Example: "Windows Media" becomes "windows-media" */
 	font-weight: var(--fontWeight);
 	padding: 4px 0;
 }
+
 /* Search prefix styling (e.g., ">" for commands) */
 
 .quick-launch-popup .search .prefix {
@@ -1182,6 +1186,7 @@ Example: "Windows Media" becomes "windows-media" */
 	background: transparent;
 	padding: 8px;
 }
+
 /* Individual result item here you can set font szie for title */
 
 .quick-launch-popup .results-list-view {
@@ -1203,6 +1208,7 @@ Example: "Windows Media" becomes "windows-media" */
     font-weight: var(--fontWeight);
     padding: 4px 0 4px 12px;
 }
+
 /* Result item hover and selected states */
 
 .quick-launch-popup .results-list-view::item {
@@ -1223,6 +1229,7 @@ Example: "Windows Media" becomes "windows-media" */
 .quick-launch-popup .results-list-view::item:selected:hover {
     background-color: var(--hover);
 }
+
 /* Empty state when no results found */
 
 .quick-launch-popup .results-empty-text {
@@ -1239,7 +1246,6 @@ Example: "Windows Media" becomes "windows-media" */
     margin-left: -3px;
     margin-right: -3px;
 }
-
 
 /* Taskbar widget */
 
@@ -1273,6 +1279,7 @@ Example: "Windows Media" becomes "windows-media" */
 .taskbar-widget .app-container .app-title {
     padding-left: 4px;
 }
+
 /* Taskbar preview popup is very limited in styling options, do not use margins/paddings here */
 
 .taskbar-preview {
