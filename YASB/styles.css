@@ -1316,6 +1316,7 @@ Example: "Windows Media" becomes "windows-media" */
 }
 
 /* Bluetooth Widget */
+
 .bluetooth-widget .icon.bt-off,
 .bluetooth-widget .label.bt-off {
     color: var(--background2);
@@ -1361,7 +1362,6 @@ Example: "Windows Media" becomes "windows-media" */
     color: var(--background);
 }
 .bluetooth-menu .progress-bar {
-    min-height: 1px;
     max-height: 1px;
     color: var(--background2);
 }
@@ -1410,12 +1410,12 @@ Example: "Windows Media" becomes "windows-media" */
 .bluetooth-menu .bluetooth-item .status {
     font-size: var(--fontSize);
     color: var(--subtext);
-    font-weight: 600;
+    font-weight: 800;
 }
 .bluetooth-menu .bluetooth-item .battery {
     font-size: var(--fontSize);
-    font-weight: 600;
-    padding-right: 6px;
+    font-weight: 800;
+    padding-right: 3px;
 }
 .bluetooth-menu .bluetooth-item .battery-icon {
     font-size: var(--iconSize);
@@ -1452,12 +1452,141 @@ Example: "Windows Media" becomes "windows-media" */
     font-family: var(--icons-font);
     background-color: transparent;
     border: none;
-    font-weight: 400;
     min-width: 28px;
     min-height: 28px;
     color: var(--text);
     border-radius: var(--border-radius);
 }
 .bluetooth-menu .footer .scan-icon:hover {
+    background-color: var(--hover);
+}
+
+/* WiFi Widget */
+
+.wifi-widget .widget-container .icon {
+    padding-top: 1px;
+}
+
+.wifi-menu {
+    font-family: var(--system-font);
+    background-color: var(--background);
+    min-height: 420px;
+    min-width: 360px;
+    border: 1px solid var(--border);
+}
+
+.wifi-menu .progress-bar {
+    max-height: 1px;
+    color: var(--background2);
+}
+
+.wifi-menu .header {
+    font-family: var(--system-font);
+    font-size: var(--fontSizeLarge);
+    font-weight: 600;
+    padding: 14px;
+    color: var(--text);
+}
+
+.wifi-menu .error-message {
+    font-family: var(--system-font);
+    font-size: var(--fontSize);
+    font-weight: 600;
+    padding: 6px 0px;
+    background-color: var(--redFlash);
+    color: var(--text);
+}
+
+.wifi-menu .wifi-list {
+    background-color: transparent;
+    margin-right: 3px;
+}
+
+.wifi-menu .wifi-item {
+    min-height: 36px;
+    padding: 6px 12px;
+}
+
+.wifi-menu .wifi-item:hover {
+    background-color: var(--background2);
+}
+
+.wifi-menu .wifi-item[active=true] {
+    background-color: var(--background2);
+    font-size: var(--fontSize);
+    min-height: 70px;
+}
+
+.wifi-menu .wifi-item .icon {
+    font-family: var(--icons-font);
+    font-size: var(--iconSize);
+    margin-right: 12px;
+    min-width: 28px;
+    font-weight: 400;
+}
+
+.wifi-menu .wifi-item .name {
+    font-family: var(--system-font);
+    font-size: var(--fontSize);
+}
+
+.wifi-menu .wifi-item .password {
+    font-family: var(--system-font);
+    background-color: transparent;
+    font-size: var(--fontSize);
+}
+
+.wifi-menu .wifi-item .status {
+    font-family: var(--system-font);
+    font-size: var(--fontSize);
+    font-weight: 800;
+}
+
+.wifi-menu .wifi-item .strength {
+    font-family: var(--system-font);
+    font-size: var(--fontSize);
+    font-weight: 800;
+}
+
+.wifi-menu .wifi-item .controls-container {
+    padding-top: 8px;
+}
+
+.wifi-menu .wifi-item .connect {
+    background-color: var(--background);
+    padding: 4px 12px;
+    border: none;
+    font-size: var(--fontSize);
+    font-weight: 600;
+}
+
+.wifi-menu .wifi-item .connect:hover {
+    background-color: var(--hover);
+}
+
+.wifi-menu .footer {
+    font-size: var(--fontSize);
+    padding: 8px 12px;
+    color: var(--text);
+    background-color: transparent;
+}
+
+.wifi-menu .footer .settings-button {
+    font-family: var(--system-font);
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+}
+
+.wifi-menu .footer .refresh-icon {
+    font-family: var(--icons-font);
+    background-color: transparent;
+    border: none;
+    min-width: 28px;
+    min-height: 28px;
+    color: var(--text);
+}
+
+.wifi-menu .footer .refresh-icon:hover {
     background-color: var(--hover);
 }
