@@ -1373,7 +1373,7 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .bluetooth-menu .section-title {
     font-size: var(--fontSize);
-    font-weight: 600;
+    font-weight: 800;
     padding: 10px 12px 4px;
     color: var(--text);
 }
@@ -1410,11 +1410,9 @@ Example: "Windows Media" becomes "windows-media" */
 .bluetooth-menu .bluetooth-item .status {
     font-size: var(--fontSize);
     color: var(--subtext);
-    font-weight: 800;
 }
 .bluetooth-menu .bluetooth-item .battery {
     font-size: var(--fontSize);
-    font-weight: 800;
     padding-right: 3px;
 }
 .bluetooth-menu .bluetooth-item .battery-icon {
@@ -1539,13 +1537,11 @@ Example: "Windows Media" becomes "windows-media" */
 .wifi-menu .wifi-item .status {
     font-family: var(--system-font);
     font-size: var(--fontSize);
-    font-weight: 800;
 }
 
 .wifi-menu .wifi-item .strength {
     font-family: var(--system-font);
     font-size: var(--fontSize);
-    font-weight: 800;
 }
 
 .wifi-menu .wifi-item .controls-container {
