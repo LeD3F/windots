@@ -130,7 +130,7 @@ widgets:
     type: yasb.notifications.NotificationsWidget
     options:
       label: "<span>\uEB9A</span>"
-      label_alt: "{count} \u0443\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u0439"
+      label_alt: "{count} notifications"
       hide_empty: true
       tooltip: false
       callbacks:
@@ -291,7 +291,7 @@ widgets:
     # Example path to folder with images. Can be a single string or a list of strings.
     # image_path: "C:\\Users\\{Username}\\Images" 
       image_path:
-        - "C:\\Users\\nikit\\OneDrive\\\u0424\u043E\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438\\Walls"
+        - "C:\\Users\\nikit\\Pictures\\Walls"
       change_automatically: false # Automatically change wallpaper
       update_interval: 60 # If change_automatically is true, update interval in seconds
       engine:
