@@ -1367,7 +1367,8 @@ Example: "Windows Media" becomes "windows-media" */
     background-color: transparent;
 }
 .bluetooth-menu .section {
-    background-color: transparent
+    background-color: transparent;
+    padding:6px 8px 6px 4px;
 }
 .bluetooth-menu .section-title {
     font-size: var(--fontSize);
@@ -1388,10 +1389,6 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .bluetooth-menu .bluetooth-item:hover {
     background-color: var(--background2);
-}
-.bluetooth-menu .bluetooth-item.active {
-    background-color: var(--background2);
-    border-radius: var(--border-radius);
 }
 .bluetooth-menu .bluetooth-item .icon {
     font-family: var(--icons-font);
@@ -1489,7 +1486,8 @@ Example: "Windows Media" becomes "windows-media" */
 
 .wifi-menu .wifi-list {
     background-color: transparent;
-    margin-right: 3px;
+    padding:6px 8px 6px 4px;
+
 }
 
 .wifi-menu .wifi-item {
