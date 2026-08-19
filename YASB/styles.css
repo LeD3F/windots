@@ -1344,7 +1344,6 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .bluetooth-menu .header .title {
     font-size: var(--fontSizeLarge);
-    font-weight: 600;
     color: var(--text);
 }
 .bluetooth-menu .header .power-button {
@@ -1353,7 +1352,6 @@ Example: "Windows Media" becomes "windows-media" */
     border-radius: var(--border-radius);
     color: var(--text);
     font-size: var(--fontSize);
-    font-weight: 600;
     padding: 4px 14px;
     margin-left: 8px;
 }
@@ -1379,7 +1377,6 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .bluetooth-menu .error-message {
     font-size: var(--fontSize);
-    font-weight: 600;
     padding: 6px 0;
     background-color: var(--redFlash);
     color: var(--text);
@@ -1405,7 +1402,6 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .bluetooth-menu .bluetooth-item .name {
     font-size: var(--fontSize);
-    font-weight: 600;
 }
 .bluetooth-menu .bluetooth-item .status {
     font-size: var(--fontSize);
@@ -1431,7 +1427,6 @@ Example: "Windows Media" becomes "windows-media" */
     border-radius: var(--border-radius);
     border: none;
     font-size: var(--fontSize);
-    font-weight: 600;
 }
 .bluetooth-menu .bluetooth-item .connect:hover {
     background-color: var(--hover);
@@ -1443,7 +1438,6 @@ Example: "Windows Media" becomes "windows-media" */
     background-color: transparent;
     border: none;
     font-size: var(--fontSize);
-    font-weight: 600;
     cursor: pointer;
 }
 .bluetooth-menu .footer .scan-icon {
@@ -1481,7 +1475,6 @@ Example: "Windows Media" becomes "windows-media" */
 .wifi-menu .header {
     font-family: var(--system-font);
     font-size: var(--fontSizeLarge);
-    font-weight: 600;
     padding: 14px;
     color: var(--text);
 }
@@ -1489,7 +1482,6 @@ Example: "Windows Media" becomes "windows-media" */
 .wifi-menu .error-message {
     font-family: var(--system-font);
     font-size: var(--fontSize);
-    font-weight: 600;
     padding: 6px 0px;
     background-color: var(--redFlash);
     color: var(--text);
@@ -1553,7 +1545,6 @@ Example: "Windows Media" becomes "windows-media" */
     padding: 4px 12px;
     border: none;
     font-size: var(--fontSize);
-    font-weight: 600;
 }
 
 .wifi-menu .wifi-item .connect:hover {
