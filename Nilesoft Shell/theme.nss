@@ -34,7 +34,7 @@
 
 	font
 	{
-		size = 24
+		size = 18
 	 	name = "JetBrainsMono NFP"
 	 	weight = 1
 	 	italic = 0
