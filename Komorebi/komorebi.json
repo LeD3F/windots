@@ -22,7 +22,7 @@
     "enabled": true,
     "duration": 160,
     "fps": 160,
-    "style": {          
+    "style": {
       "movement":"EaseInOutQuad",
       "transparency": "Linear"
   }
@@ -36,7 +36,14 @@
         },
         {
           "name": "II",
-          "layout": "BSP"
+          "layout": "Scrolling",
+          "layout_options":
+          {
+            "scrolling":
+            {
+              "columns": 2
+            }
+          }
         },
         {
           "name": "III",
@@ -48,7 +55,7 @@
               "columns": 2
             }
           }
-        },        
+        },
         {
           "name": "IV",
           "layout": "VerticalStack"
@@ -103,7 +110,7 @@
       "kind": "Exe",
       "id": "Happ.exe",
       "matching_strategy": "Equals"
-    },    
+    },
     {
       "kind": "Exe",
       "id": "ACBlackFlag.exe",
@@ -132,6 +139,76 @@
     {
       "kind": "Exe",
       "id": "NanaZip.Modern.FileManager.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "re4.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "re9.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "re8.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "SHf-Win64-Shipping.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "ModOrganizer.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "re7.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "PowerToys.Settings.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "PowerToys.RegistryPreview.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "pcsx2-qt.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "SocialClubHelper.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "framepacer.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "TheWitcher3ModManager.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "WitcherScriptMerger.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "witcher3.exe",
       "matching_strategy": "Equals"
     }
   ]
