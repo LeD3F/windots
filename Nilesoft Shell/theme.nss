@@ -2,11 +2,11 @@
 {
 	name = "modern"
 
-	view = view.large
+	view = view.small
 
 	background
 	{
-		color = #18181b
+		color = #1e1e2e
 		opacity = 100
 		// effect = 2
 	}
@@ -14,39 +14,39 @@
 	item
 	{
 		opacity = 100
-		radius = 0
+
 		prefix = 1
 
 		text
 		{
-			normal = #e5e7eb
-			select = #e5e7eb
-			normal-disabled = #b2b2b2
-			select-disabled = #b2b2b2
+			normal = #cdd6f4
+			select = #cdd6f4
+			normal-disabled = #a6adc8
+			select-disabled = #a6adc8
 		}
 
 		back
 		{
-			select = #7a7c7d
-			select-disabled = #7a7c7d
+			select = #45475a
+			select-disabled = #313244
 		}
 	}
 
-	font
-	{
-		size = 18
-	 	name = "JetBrainsMono NFP"
-	 	weight = 1
-	 	italic = 0
-	 }
+	// font
+	// {
+	// 	size = 14
+	// 	name = "Segoe UI Variable Text"
+	// 	weight = 2
+	// 	italic = 0
+	// }
 
 	border
 	{
 		enabled = true
-		size = 2
-		color = #3f3f42
+		size = 1
+		color = #313244
 		opacity = 100
-		radius = 0
+		radius = 2
 	}
 
 	shadow
@@ -60,20 +60,20 @@
 	separator
 	{
 		size = 1
-		color = #7a7c7d
+		color = #313244
 	}
 
 	symbol
 	{
-		normal = #e5e7eb
-		select = #e5e7eb
-		normal-disabled = #e5e7eb7a
-		select-disabled = #e5e7eb7a
+		normal = #89b4fa
+		select = #89b4fa
+		normal-disabled = #a6adc8
+		select-disabled = #a6adc8
 	}
 
 	image
 	{
-		enabled = false
-		color = [#e5e7eb, #e5e7eb, #e5e7eb]
+		enabled = true
+		color = [#cdd6f4, #89b4fa, #1e1e2e]
 	}
 }
