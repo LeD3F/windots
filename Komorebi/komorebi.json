@@ -3,39 +3,39 @@
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
-
-  "default_workspace_padding": 10,
-  "default_container_padding": 4,
-  "border": true,
-  "border_style":"Square",
-  "border_width": 3,
+  "transparency": false,
+  "transparency_alpha": 250,
+  "default_workspace_padding": 7,
+  "default_container_padding": 7,
+  "border": false,
+  "border_style":"Rounded",
+  "border_width": 4,
   "border_offset": -1,
-  "border_colours": {
-    "single": "#3f3f42",
-    "stack": "#00a542",
-    "monocle": "#ff3399",
-    "floating": "#3f3f42",
-    "unfocused": "#18181b"
-  },
   "mouse_follows_focus": false,
   "animation": {
     "enabled": true,
     "duration": 160,
-    "fps": 160,
+    "fps": 300,
     "style": {
-      "movement":"EaseInOutQuad",
-      "transparency": "Linear"
-  }
+        "movement":"EaseInOutQuad",
+        "transparency": "Linear"
+      }
 },
+  "border_colours": {
+    "single": "#4b775e",
+    "unfocused": "#6d9471",
+    "floating": "#4b775e",
+    "monocle": "#6d9471"
+  },
   "monitors": [
     {
       "workspaces": [
         {
-          "name": "I",
-          "layout": "BSP"
+          "name": "Main",
+          "layout": "BSP",
         },
         {
-          "name": "II",
+          "name": "Game",
           "layout": "Scrolling",
           "layout_options":
           {
@@ -46,7 +46,7 @@
           }
         },
         {
-          "name": "III",
+          "name": "Chat",
           "layout": "Scrolling",
           "layout_options":
           {
@@ -57,20 +57,41 @@
           }
         },
         {
-          "name": "IV",
-          "layout": "VerticalStack"
+          "name": "Misc",
+          "layout": "UltrawideVerticalStack",
         },
         {
           "name": "V",
-          "layout": "BSP"
+          "layout": "Scrolling",
+          "layout_options":
+          {
+            "scrolling":
+            {
+              "columns": 2
+            }
+          }
         },
         {
           "name": "VI",
-          "layout": "BSP"
+          "layout": "Scrolling",
+          "layout_options":
+          {
+            "scrolling":
+            {
+              "columns": 2
+            }
+          }
         },
         {
           "name": "VII",
-          "layout": "BSP"
+          "layout": "Scrolling",
+          "layout_options":
+          {
+            "scrolling":
+            {
+              "columns": 2
+            }
+          }
         }
       ]
     }
@@ -119,11 +140,6 @@
     {
       "kind": "Exe",
       "id": "forzahorizon6.exe",
-      "matching_strategy": "Equals"
-    },
-    {
-      "kind": "Exe",
-      "id": "Spotify.exe",
       "matching_strategy": "Equals"
     },
     {
@@ -210,6 +226,21 @@
       "kind": "Exe",
       "id": "witcher3.exe",
       "matching_strategy": "Equals"
-    }
+    },
+    {
+      "kind": "Exe",
+      "id": "mgs4.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "UltraPlusManager.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "YASB.exe",
+      "matching_strategy": "Equals",
+    },
   ]
 }
