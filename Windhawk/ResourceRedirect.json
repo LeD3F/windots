@@ -1,6 +1,6 @@
 {
-  "iconTheme": "Papirus Grey|themes/icons/niivu/Papirus%20Grey.zip",
-  "disableThumbnails": 0,
+  "iconTheme": "Catppuccin|themes/icons/niivu/Catppuccin.zip",
+  "disableThumbnails": 1,
   "allResourceRedirect": 0,
   "themePaths[0]": "",
   "redirectionResourcePaths[0].original": "",
